@@ -104,8 +104,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.0(tailwindcss@3.4.17)
       '@sveltejs/adapter-cloudflare':
-        specifier: ^4.8.0
-        version: 4.8.0(@sveltejs/kit@2.12.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(wrangler@3.97.0(@cloudflare/workers-types@4.20241218.0))
+        specifier: ^5.0.0
+        version: 5.0.0(@sveltejs/kit@2.12.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(wrangler@3.97.0(@cloudflare/workers-types@4.20241218.0))
       '@sveltejs/kit':
         specifier: ^2.12.1
         version: 2.12.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1))
@@ -811,11 +811,11 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0'
 
-  '@sveltejs/adapter-cloudflare@4.8.0':
-    resolution: {integrity: sha512-stt72ZXDmRoLBqqj2fAdMXyOZ0vDUoAiNe/GRKkfxb1wW5Smp/jBGhKVBwhlAIi7aeE0xEMehN1SBxId9QMh5g==}
+  '@sveltejs/adapter-cloudflare@5.0.0':
+    resolution: {integrity: sha512-YYfkdEajp4sALHFYeIUUQTGC3M1ZicrYYSVz1zmYwR2DKT59dwygYsdufI4L6ONNsDdRh3xeojjo8sO3V9dHcw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
-      wrangler: ^3.28.4
+      wrangler: ^3.87.0
 
   '@sveltejs/kit@2.12.1':
     resolution: {integrity: sha512-M3rPijGImeOkI0DBJSwjqz+YFX2DyOf6NzWgHVk3mqpT06dlYCpcv5xh1q4rYEqB58yQlk4QA1Y35PUqnUiFKw==}
@@ -2391,6 +2391,7 @@ packages:
   wrangler@3.97.0:
     resolution: {integrity: sha512-NkFAigqZWe4NOK0gYROcpvdugaYJE/JRFrIZ+c5Q5/uie+25WH8OVbRvvmiXhWVhso56cZs2W2TPmAxT/sgHkw==}
     engines: {node: '>=16.17.0'}
+    deprecated: Downgrade to 3.96.0
     hasBin: true
     peerDependencies:
       '@cloudflare/workers-types': ^4.20241205.0
@@ -2970,7 +2971,7 @@ snapshots:
     dependencies:
       tailwindcss: 3.4.17
 
-  '@sveltejs/adapter-cloudflare@4.8.0(@sveltejs/kit@2.12.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(wrangler@3.97.0(@cloudflare/workers-types@4.20241218.0))':
+  '@sveltejs/adapter-cloudflare@5.0.0(@sveltejs/kit@2.12.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(wrangler@3.97.0(@cloudflare/workers-types@4.20241218.0))':
     dependencies:
       '@cloudflare/workers-types': 4.20241218.0
       '@sveltejs/kit': 2.12.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1)))(svelte@5.14.4)(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.2)(yaml@2.6.1))
